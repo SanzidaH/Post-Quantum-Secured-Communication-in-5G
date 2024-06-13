@@ -2,8 +2,6 @@
 
 ## Experimental Setup 
 
- 
-
 # 5G Testbed Setup: 
 
 - Virtual Manager:
@@ -11,7 +9,12 @@
 
 - Open5gs: 
 
-- UERANSIM: 
+- UERANSIM:
+
+
+Thanks to: 
+https://github.com/adwise-fiu/5G-SDN-Testbed
+  
 
 # PQC Installation: 
 
