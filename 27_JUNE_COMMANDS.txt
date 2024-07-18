@@ -1,0 +1,439 @@
+oqs@OQS:~$ history
+    1  cd ../
+    2  locate local
+    3  locate .local
+    4  cd /home/oqs/.local
+    5  ls
+    6  cd lib64/
+    7  ls
+    8  pwd
+    9  cd ..
+   10  ls
+   11  cd lib64/
+   12  ls
+   13  cd ../
+   14  ;s
+   15  ls
+   16  cd /lioqs
+   17  cd /liboqs
+   18  c d../
+   19  cd ../
+   20  ls
+   21  clera 
+   22  clear
+   23  ls
+   24  cd liboqs/
+   25  ls
+   26  cd tests/
+   27  ls
+   28  gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   29  cd gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   30  sudo gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   31  locate oqs/oqs.h
+   32* locate oqs
+   33  sudo gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   34  ls
+   35  sudo gcc -o speed_sig speed_sig.c  -lssl -lcrypto
+   36  cd ../
+   37  l
+   38  locate liboqs.a
+   39  locate liboqs
+   40  ls
+   41  cd tests/
+   42  l
+   43  gcc -I/home/oqs/.local/include/openssl -L/home/oqs/.local/lib64 -o speed_sig speed_sig.c -lssl -lcrypto
+   44  cd ../../
+   45  ls
+   46  sudo rm -rf liboqs/
+   47  ls
+   48  clear 
+   49  sudo  git clone -b main https://github.com/open-quantum-safe/liboqs.git
+   50  cd liboqs/
+   51  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   52  sudo apt-get install libpthread-stubs0-dev
+   53  ls
+   54  sudo rm -rf _build/
+   55  ls
+   56  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   57* cd /usr/lib
+   58* cd x
+   59  cd x
+   60  cd x86_64-linux-gnu/
+   61  ls
+   62  cd ../../
+   63  cd 
+   64  cd liboqs/
+   65  clear 
+   66  ls
+   67  sudo rm -rf _build/
+   68  sudo cmake -DOPENSSL_CRYPTO_LIBRARY=/home/oqs/.local/lib64 -DOPENSSL_INCLUDE_DIR=/home/oqs/.local/include -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   69  locste CMAKE_HAVE_LIBC_PTHREAD
+   70  locate CMAKE_HAVE_LIBC_PTHREAD
+   71  locate CMakeFiles/CMakeError.log
+   72  locate CMakeFiles/
+   73  cd build/CMakeFiles/CMakeError.log
+   74  cd _build/
+   75  ls
+   76  cd cm
+   77  cd CMakeFiles/
+   78  ls
+   79  cat CMakeError.log 
+   80  find_package(Threads REQUIRED)
+   81  cd 
+   82  find_package(Threads REQUIRED)
+   83  find_package <pre>CMAKE_HAVE_LIBC_PTHREAD</pre>
+   84  find_package CMAKE_HAVE_LIBC_PTHREAD
+   85  cd /liboqs/_build/CMakeFiles
+   86  cd liboqs/_build/CMakeFiles
+   87  ls
+   88  cd CMakeTmp/
+   89  ls
+   90  cd ../
+   91  ls
+   92  cd 3.16.3/
+   93  ls
+   94  cd ../../../
+   95  ls
+   96  cd _build/
+   97  ls
+   98  cd ../
+   99  ls
+  100  sudo rm -rf _build/
+  101  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+  102  sudo cmake --build _build && sudo cmake --install _build
+  103  cd ../
+  104  sudo git clone https://github.com/open-quantum-safe/oqs-provider.git
+  105  cd oqs-provider/
+  106  ls
+  107* sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  108  cls
+  109  ls
+  110  sudo rm -rf _build/
+  111  oqs@OQS:~/oqs-provider$ sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  112  sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  113  sudo cmake --build _build
+  114  ctest --parallel 5 --test-dir _build --rerun-failed --output-on-failure
+  115  sudo ctest --parallel 5 --test-dir _build --rerun-failed --output-on-failure
+  116  ls
+  117  cd test/
+  118  ls
+  119  cd ../
+  120  ls
+  121  cd test/
+  122  cd ../
+  123  cd Testing/
+  124  ls
+  125  cd t
+  126  cd Temporary/
+  127  ls
+  128  cd ../../../
+  129  cd oqs-provider/
+  130  ls 
+  131  cd _build/
+  132  ls
+  133  cd test/
+  134  ls
+  135  cd /etc/ssl
+  136  ls
+  137  sudo nano openssl.cnf 
+  138  sudo  openssl list -providers
+  139  sudo  openssl 
+  140  cd ../../
+  141  cd 
+  142  cd openssl/
+  143  ls
+  144  cd apps/
+  145  ls
+  146  ./openssl 
+  147  sudo ./openssl 
+  148  openssl
+  149  ls
+  150  openssl provider -list
+  151  sudo openssl provider -list
+  152  cd ../../
+  153  sudo openssl provider -list
+  154  LD_LIBRARY_PATH=.local/lib64 .local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  155  cd oqs-provider/
+  156  LD_LIBRARY_PATH=.local/lib64 .local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  157  cd ../
+  158  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  159  list: unable to load provider oqsprovider
+  160  Hint: use -provider-path option or OPENSSL_MODULES environment variable.
+  161  80A25161567F0000:error:12800067:DSO support routines:dlfcn_load:could not load the shared library:crypto/dso/dso_dlfcn.c:118:filename(_build/lib/oqsprovider.so): _build/lib/oqsprovider.so: cannot open shared object file: No such file or directory
+  162  80A25161567F0000:error:12800067:DSO support routines:DSO_load:could not load the shared library:crypto/dso/dso_lib.c:150:
+  163  80A25161567F0000:error:07880025:common libcrypto routines:provider_init:reason(37):crypto/provider_core.c:913:name=oqsprovider
+  164  openssl list -providers -verbose
+  165  find /home/oqs -name 'oqsprovider.so'
+  166  export OPENSSL_MODULES=/home/oqs/oqs-provider
+  167  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider oqsprovider
+  168  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider oqs-provider
+  169  locate oqsprovider
+  170  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  171  sudo LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  172  cd oqs-provider/
+  173  sudo LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  174  export LD_LIBRARY_PATH="/home/oqs/.local/lib64:/home/oqs/_build/lib"
+  175  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  176  chmod +rx /home/oqs/_build/lib/oqsprovider.so
+  177  cd ../
+  178  sudo chmod +rx /home/oqs/_build/lib/oqsprovider.so
+  179  cd /home/oqs/_build/
+  180  cd /home/oqs/_build
+  181  cd home/oqs/_build
+  182  ls
+  183  cd ./lo
+  184  cd .local
+  185  ld
+  186  ls
+  187  cd lib
+  188  ls
+  189  cd ../
+  190  cd lib64
+  191  ls
+  192  cd ../../
+  193  export LD_LIBRARY_PATH="/home/oqs/.local/lib64:/home/oqs/oqs-provider/_build/lib"
+  194  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  195  openssl list -providers -verbose
+  196  openssl ciphers -v
+  197  openssl list -digest-algorithms
+  198  openssl list -providers
+  199  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  200  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib openssl list -provider oqsprovider
+  201  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib openssl list -provider 
+  202  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib  -provider openssl list
+  203  locate openssl.so
+  204  find / -name "openssl.so" 2>/dev/null
+  205  find / -name "openssl.so" 
+  206  locate  "openssl.so" 
+  207  /etc/ssl/openssl.cnf 
+  208  sudo nano  /etc/ssl/openssl.cnf 
+  209  locate oqsprovider_sect
+  210  locate oqsprovider
+  211  openssl list -providers
+  212  openssl version
+  213  which openssl
+  214  /home/oqs/openssl/bin/openssl list -providers
+  215  cd /home/oqs/openssl
+  216  ls
+  217  cd apps/
+  218  ls
+  219  cd include/
+  220  ls
+  221  cd ../
+  222  cd lib/
+  223  ;s
+  224  ls
+  225  cd ../../
+  226  ls
+  227  cd .local
+  228  cd /.local
+  229  cd 
+  230  cd .local
+  231  ls
+  232  cd bin/
+  233  ls
+  234  pwd
+  235  /home/oqs/.local/bin/openssl list -providers
+  236  cd ..
+  237  export PATH=/home/oqs/.local/bin:$PATH
+  238  openssl version
+  239  openssl list -providers
+  240  sudo histroy 
+  241  sudo history 
+  242  sudo history  
+  243  history  
+  244  history > commads.txt
+  245  ls
+  246  cat commads.txt 
+  247  openssl list -providers -verbose
+  248  open commads.txt 
+  249  history
+  250  openssl list -providers -verbose
+  251  openssl list -providers
+  252  openssl 
+  253  openssl
+  254  openssl ciphers
+  255  openssl list -providers -verbose
+  256  env
+  257  sudo nano .bashrc
+  258  env | grep -i "O"
+  259  env | grep -i "open"
+  260  env
+  261  openssl
+  262  openssl version
+  263  ls
+  264  openssl help
+  265  openssl ciphers -v
+  266  openssl list -digest-algorithms
+  267  openssl list -public-key-algorithms
+  268  openssl list -kdf-algorithms
+  269  openssl 
+  270  openssl list
+  271  openssl list -help
+  272  openssl list -signature-algorithms
+  273  openssl list -kem-algorithms
+  274  openssl list -public-key-methods
+  275  openssl list -key-managers
+  276  liboqs
+  277  openssl list -all-algorithms
+  278  openssl list -all-algorithms | grep -i falcon
+  279  openssl list -providers
+  280  sudo nano /etc/ssl/openssl.cnf 
+  281  openssl list -providers
+  282  sudo nano /etc/ssl/openssl.cnf 
+  283  export OPENSSL_CONF=/etc/ssl/openssl.cnf
+  284  openssl list -providers
+  285  ldd /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  286  openssl provider -vvv /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  287  openssl -provider -vvv /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  288  openssl help
+  289  openssl help | grep -i providers
+  290  openssl provider -vvv /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  291  /home/oqs/openssl/bin/openssl provider -vvv /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  292  cd .local/
+  293  ls
+  294  cd bin/
+  295  ls
+  296  /home/oqs/.local/bin/openssl provider -vvv /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  297  /home/oqs/.local/bin/openssl provider /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  298  /home/oqs/.local/bin/openssl -provider /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  299  openssl help
+  300  sudo nano /etc/ssl/openssl.cnf 
+  301  openssl
+  302  openssl version
+  303  openssl list -providers
+  304  locate falcon
+  305  cd ~
+  306  locate falcon
+  307  'cd li
+  308  cd liboqs/
+  309  ls
+  310  cd ../
+  311  ls
+  312  cd oqs-provider/
+  313  ls
+  314  cd _build/
+  315  ls
+  316  cd lib/
+  317  ls
+  318  ./oqsprovider.so
+  319  ./oqsprovider.so.0.5.1-dev 
+  320  sudo ./oqsprovider.so.0.5.1-dev 
+  321  sudo chmod +x *
+  322  ls
+  323  pwd
+  324  sudo nano /etc/ssl/openssl.cnf 
+  325  openssl list -providers
+  326  openssl list -help
+  327  openssl list -disabled
+  328  openssl list -engines
+  329  openssl -provider /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  330  openssl -provider=-path /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  331  openssl -provider-path /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  332  openssl -provider-path val /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  333  openssl -provider-path val
+  334  openssl -provider-path
+  335  openssl <some-command> -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  336  openssl list -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  337  openssl list -providers -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  338  openssl list -providers
+  339  openssl list -providers -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  340  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  341  ls
+  342  cd ../../
+  343  cd ../
+  344  ls
+  345  cd bind9/
+  346  ls
+  347  cd bin/
+  348  ls
+  349  cd dnssec/
+  350  ;s
+  351  ls
+  352  sudo ./dnssec-keygen -a FALCON-256 -b 256 -n ZONE example.com
+  353  sudo ./dnssec-keygen -a falcon_512 -b 256 -n ZONE example.com
+  354  openssl pkeyutl -generate -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider openssl pkeyutl -generate -algorithm falcon512 -out private.key
+  355  openssl pkeyutl -generate -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  356  openssl genpkey -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  357  sudo openssl genpkey -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  358  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  359  openssl genpkey -algorithm falcon512 -out private.key -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  360  openssl genpkey -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  361  sudo openssl genpkey -algorithm falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  362  sudo openssl genpkey -algorithm rsa3072_falcon512 -out private.key -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  363  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  364  sudo openssl genpkey -algorithm falcon512 -out private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  365  sudo openssl genpkey -algorithm dilithium3 -out private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  366  openssl --help
+  367  openssl genpkey -algorithm falcon512 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  368  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  369  openssl genpkey -algorithm falcon512 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  370  cd /home/oqs/oqs-provider/_build/lib
+  371  ls
+  372  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  373  openssl list -providers -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  374  openssl genpkey -algorithm falcon512 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  375  openssl -new -newkey dilithium3 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib/
+  376  openssl -new -newkey dilithium3 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  377  openssl req -x509 -new -newkey dilithium3 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  378  openssl -newkey dilithium3 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  379  openssl help
+  380  openssl genpkey -algorithm falcon512 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib/oqsprovider.so
+  381  openssl genpkey -algorithm falcon512 -out ksk_private.key -outform PEM -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  382  openssl genpkey -algorithm falcon512 -out ksk_private.key -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  383  openssl genpkey list -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  384  openssl genpkey -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  385  openssl req -newkey falcon512 -nodes -keyout ksk_private.key -out ksk_csr.csr -subj "/CN=oqstest" -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib
+  386  openssl -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib req -newkey falcon512 -nodes -keyout ksk_private.key -out ksk_csr.csr -subj "/CN=oqstest"
+  387  openssl -provider oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib req -newkey falcon512 -nodes -keyout ksk_private.key -out ksk_csr.csr 
+  388  openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  389  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  390  sudo openssl genpkey -algorithm falcon512 @oqsprovider -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  391  openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  392  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  393  sudo openssl genpkey -algorithm rsa3072_falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  394  openssl genpkey -algorithm p256_falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  395  sudo openssl genpkey -algorithm p256_falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  396  openssl list -all-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  397  openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  398  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  399  Algorithm falcon512 not found
+  400  sudo openssl genpkey -algorithm 'falcon512 @ oqsprovider' -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  401  sudo openssl genpkey -algorithm falcon512 -provider oqsprovider -out ZSK.key
+  402  openssl list -public-key-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  403  sudo openssl genpkey -algorithm falcon512 -provider oqsprovider -out ZSK.key
+  404  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  405  sudo openssl genpkey -algorithm dilithium5 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  406  sudo openssl genpkey -algorithm falcon512 -provider oqsprovider -out ZSK.key
+  407  openssl version
+  408  sudo openssl genpkey -algorithm AES-128-CBC -provider oqsprovider -out ZSK.key
+  409  ls
+  410  sudo openssl genpkey -algorithm AES-128-CBC -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  411  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  412  ls
+  413  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out ZSK.key
+  414  openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  415  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  416  cd ../../
+  417  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider -out KSK.key
+  418  openssl version
+  419  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider 
+  420  sudo openssl genpkey -algorithm falcon_512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider 
+  421  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider 
+  422  clear 
+  423  ls
+  424  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider 
+  425* openssl list -public-key-algorithms -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovide
+  426  openssl version
+  427  sudo openssl genpkey -algorithm falcon512 -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider 
+  428  history
+  429  history > 27_JUNE_COMMANDS.txt
+  430* 
+  431  echo history 
+  432  history
+  433  history > history.txt
+  434  sudo history > history.txt
+  435  cd ~
+  436  sudo history > history.txt
+  437  cat history > history.txt
+  438  history

@@ -1,0 +1,79 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "QEMU",
+    "Product": "Standard PC (Q35 + ICH9, 2009)",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "SeaBIOS",
+    "Version": "1.13.0-1ubuntu1.1"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "2",
+    "Threads": "1",
+    "Cores": "1",
+    "Sockets": "2",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "94",
+    "Stepping": "3",
+    "Name": "Intel Core Processor (Skylake, IBRS)",
+    "Virtualization": "VT-x",
+    "Hypervisor": "KVM",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "1b36",
+      "Model": "0100"
+    }
+  ],
+  "RAM": 4.9,
+  "Disks": [
+    107.4
+  ],
+  "Partitions": [
+    102.1,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1024x768",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/New_York",
+  "Install": {
+    "Media": "Ubuntu 20.04.5 LTS \"Focal Fossa\" - Release amd64 (20220831)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "12": "console_setup",
+      "13": "prepare",
+      "20": "partman",
+      "36": "start_install",
+      "70": "timezone",
+      "83": "usersetup",
+      "113": "user_done",
+      "293": "done"
+    }
+  }
+}

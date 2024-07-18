@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/oqs/commads.txt" added="2023-06-27T22:58:39Z" modified="2023-06-27T22:58:39Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-06-27T22:58:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/27_JUNE_COMMANDS.txt" added="2023-06-28T18:40:37Z" modified="2023-06-28T18:40:37Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-06-28T18:40:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/p521_k5.pcapng" added="2024-05-23T16:00:23Z" modified="2024-05-23T16:00:23Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pcapng"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-05-23T16:00:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/a.pcapng" added="2024-05-23T16:09:21Z" modified="2024-05-23T16:09:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pcapng"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-05-23T16:09:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/Downloads/p521_k5_rtt" added="2024-05-23T16:12:38Z" modified="2024-05-23T16:31:03Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="wireshark" exec="&apos;wireshark %u&apos;" modified="2024-05-23T16:12:38Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2024-05-23T16:31:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/Downloads/p521_k5_t" added="2024-05-23T16:13:16Z" modified="2024-05-23T16:13:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="wireshark" exec="&apos;wireshark %u&apos;" modified="2024-05-23T16:13:16Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2024-05-23T16:13:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/Downloads/p255k5_1.pcapng" added="2024-05-23T16:21:11Z" modified="2024-05-23T16:32:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pcapng"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-05-23T16:32:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/Downloads/nopqc.pcapng" added="2024-05-23T16:30:58Z" modified="2024-05-23T16:38:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pcapng"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-05-23T16:38:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/oqs/Downloads/a.pcapng" added="2024-05-23T16:32:57Z" modified="2024-05-23T16:32:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-pcapng"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-05-23T16:32:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

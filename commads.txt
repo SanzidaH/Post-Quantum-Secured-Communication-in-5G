@@ -1,0 +1,244 @@
+    1  cd ../
+    2  locate local
+    3  locate .local
+    4  cd /home/oqs/.local
+    5  ls
+    6  cd lib64/
+    7  ls
+    8  pwd
+    9  cd ..
+   10  ls
+   11  cd lib64/
+   12  ls
+   13  cd ../
+   14  ;s
+   15  ls
+   16  cd /lioqs
+   17  cd /liboqs
+   18  c d../
+   19  cd ../
+   20  ls
+   21  clera 
+   22  clear
+   23  ls
+   24  cd liboqs/
+   25  ls
+   26  cd tests/
+   27  ls
+   28  gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   29  cd gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   30  sudo gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   31  locate oqs/oqs.h
+   32* locate oqs
+   33  sudo gcc -o speed_sig speed_sig.c -L/home/oqs/.local/lib64 -lssl -lcrypto
+   34  ls
+   35  sudo gcc -o speed_sig speed_sig.c  -lssl -lcrypto
+   36  cd ../
+   37  l
+   38  locate liboqs.a
+   39  locate liboqs
+   40  ls
+   41  cd tests/
+   42  l
+   43  gcc -I/home/oqs/.local/include/openssl -L/home/oqs/.local/lib64 -o speed_sig speed_sig.c -lssl -lcrypto
+   44  cd ../../
+   45  ls
+   46  sudo rm -rf liboqs/
+   47  ls
+   48  clear 
+   49  sudo  git clone -b main https://github.com/open-quantum-safe/liboqs.git
+   50  cd liboqs/
+   51  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   52  sudo apt-get install libpthread-stubs0-dev
+   53  ls
+   54  sudo rm -rf _build/
+   55  ls
+   56  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   57* cd /usr/lib
+   58* cd x
+   59  cd x
+   60  cd x86_64-linux-gnu/
+   61  ls
+   62  cd ../../
+   63  cd 
+   64  cd liboqs/
+   65  clear 
+   66  ls
+   67  sudo rm -rf _build/
+   68  sudo cmake -DOPENSSL_CRYPTO_LIBRARY=/home/oqs/.local/lib64 -DOPENSSL_INCLUDE_DIR=/home/oqs/.local/include -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+   69  locste CMAKE_HAVE_LIBC_PTHREAD
+   70  locate CMAKE_HAVE_LIBC_PTHREAD
+   71  locate CMakeFiles/CMakeError.log
+   72  locate CMakeFiles/
+   73  cd build/CMakeFiles/CMakeError.log
+   74  cd _build/
+   75  ls
+   76  cd cm
+   77  cd CMakeFiles/
+   78  ls
+   79  cat CMakeError.log 
+   80  find_package(Threads REQUIRED)
+   81  cd 
+   82  find_package(Threads REQUIRED)
+   83  find_package <pre>CMAKE_HAVE_LIBC_PTHREAD</pre>
+   84  find_package CMAKE_HAVE_LIBC_PTHREAD
+   85  cd /liboqs/_build/CMakeFiles
+   86  cd liboqs/_build/CMakeFiles
+   87  ls
+   88  cd CMakeTmp/
+   89  ls
+   90  cd ../
+   91  ls
+   92  cd 3.16.3/
+   93  ls
+   94  cd ../../../
+   95  ls
+   96  cd _build/
+   97  ls
+   98  cd ../
+   99  ls
+  100  sudo rm -rf _build/
+  101  sudo cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../.local -S . -B _build
+  102  sudo cmake --build _build && sudo cmake --install _build
+  103  cd ../
+  104  sudo git clone https://github.com/open-quantum-safe/oqs-provider.git
+  105  cd oqs-provider/
+  106  ls
+  107* sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  108  cls
+  109  ls
+  110  sudo rm -rf _build/
+  111  oqs@OQS:~/oqs-provider$ sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  112  sudo cmake -DOPENSSL_ROOT_DIR=/home/oqs/.local -DCMAKE_PREFIX_PATH=/home/oqs/.local -S . -B _build
+  113  sudo cmake --build _build
+  114  ctest --parallel 5 --test-dir _build --rerun-failed --output-on-failure
+  115  sudo ctest --parallel 5 --test-dir _build --rerun-failed --output-on-failure
+  116  ls
+  117  cd test/
+  118  ls
+  119  cd ../
+  120  ls
+  121  cd test/
+  122  cd ../
+  123  cd Testing/
+  124  ls
+  125  cd t
+  126  cd Temporary/
+  127  ls
+  128  cd ../../../
+  129  cd oqs-provider/
+  130  ls 
+  131  cd _build/
+  132  ls
+  133  cd test/
+  134  ls
+  135  cd /etc/ssl
+  136  ls
+  137  sudo nano openssl.cnf 
+  138  sudo  openssl list -providers
+  139  sudo  openssl 
+  140  cd ../../
+  141  cd 
+  142  cd openssl/
+  143  ls
+  144  cd apps/
+  145  ls
+  146  ./openssl 
+  147  sudo ./openssl 
+  148  openssl
+  149  ls
+  150  openssl provider -list
+  151  sudo openssl provider -list
+  152  cd ../../
+  153  sudo openssl provider -list
+  154  LD_LIBRARY_PATH=.local/lib64 .local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  155  cd oqs-provider/
+  156  LD_LIBRARY_PATH=.local/lib64 .local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  157  cd ../
+  158  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path _build/lib -provider oqsprovider 
+  159  list: unable to load provider oqsprovider
+  160  Hint: use -provider-path option or OPENSSL_MODULES environment variable.
+  161  80A25161567F0000:error:12800067:DSO support routines:dlfcn_load:could not load the shared library:crypto/dso/dso_dlfcn.c:118:filename(_build/lib/oqsprovider.so): _build/lib/oqsprovider.so: cannot open shared object file: No such file or directory
+  162  80A25161567F0000:error:12800067:DSO support routines:DSO_load:could not load the shared library:crypto/dso/dso_lib.c:150:
+  163  80A25161567F0000:error:07880025:common libcrypto routines:provider_init:reason(37):crypto/provider_core.c:913:name=oqsprovider
+  164  openssl list -providers -verbose
+  165  find /home/oqs -name 'oqsprovider.so'
+  166  export OPENSSL_MODULES=/home/oqs/oqs-provider
+  167  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider oqsprovider
+  168  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider oqs-provider
+  169  locate oqsprovider
+  170  LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  171  sudo LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  172  cd oqs-provider/
+  173  sudo LD_LIBRARY_PATH=/home/oqs/.local/lib64 /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  174  export LD_LIBRARY_PATH="/home/oqs/.local/lib64:/home/oqs/_build/lib"
+  175  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/_build/lib -provider oqsprovider
+  176  chmod +rx /home/oqs/_build/lib/oqsprovider.so
+  177  cd ../
+  178  sudo chmod +rx /home/oqs/_build/lib/oqsprovider.so
+  179  cd /home/oqs/_build/
+  180  cd /home/oqs/_build
+  181  cd home/oqs/_build
+  182  ls
+  183  cd ./lo
+  184  cd .local
+  185  ld
+  186  ls
+  187  cd lib
+  188  ls
+  189  cd ../
+  190  cd lib64
+  191  ls
+  192  cd ../../
+  193  export LD_LIBRARY_PATH="/home/oqs/.local/lib64:/home/oqs/oqs-provider/_build/lib"
+  194  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  195  openssl list -providers -verbose
+  196  openssl ciphers -v
+  197  openssl list -digest-algorithms
+  198  openssl list -providers
+  199  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib -provider oqsprovider
+  200  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib openssl list -provider oqsprovider
+  201  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib openssl list -provider 
+  202  /home/oqs/.local/bin/openssl list -providers -verbose -provider-path /home/oqs/oqs-provider/_build/lib  -provider openssl list
+  203  locate openssl.so
+  204  find / -name "openssl.so" 2>/dev/null
+  205  find / -name "openssl.so" 
+  206  locate  "openssl.so" 
+  207  /etc/ssl/openssl.cnf 
+  208  sudo nano  /etc/ssl/openssl.cnf 
+  209  locate oqsprovider_sect
+  210  locate oqsprovider
+  211  openssl list -providers
+  212  openssl version
+  213  which openssl
+  214  /home/oqs/openssl/bin/openssl list -providers
+  215  cd /home/oqs/openssl
+  216  ls
+  217  cd apps/
+  218  ls
+  219  cd include/
+  220  ls
+  221  cd ../
+  222  cd lib/
+  223  ;s
+  224  ls
+  225  cd ../../
+  226  ls
+  227  cd .local
+  228  cd /.local
+  229  cd 
+  230  cd .local
+  231  ls
+  232  cd bin/
+  233  ls
+  234  pwd
+  235  /home/oqs/.local/bin/openssl list -providers
+  236  cd ..
+  237  export PATH=/home/oqs/.local/bin:$PATH
+  238  openssl version
+  239  openssl list -providers
+  240  sudo histroy 
+  241  sudo history 
+  242  sudo history  
+  243  history  
+  244  history > commads.txt

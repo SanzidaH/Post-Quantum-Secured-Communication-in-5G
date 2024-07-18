@@ -1,0 +1,11 @@
+openssl_conf = openssl_init
+
+[openssl_init]
+providers = provider_section
+
+[provider_section]
+oqsprovider = oqs_provider
+
+[oqs_provider]
+activate = 1
+path = /home/oqs/oqs-provider/_build/lib

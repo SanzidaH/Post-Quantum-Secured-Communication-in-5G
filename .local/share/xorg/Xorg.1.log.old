@@ -1,0 +1,345 @@
+[819702.936] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[819702.936] _XSERVTransMakeAllCOTSServerListeners: server already running
+[819702.936] (--) Log file renamed from "/home/oqs/.local/share/xorg/Xorg.pid-110121.log" to "/home/oqs/.local/share/xorg/Xorg.1.log"
+[819702.936] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[819702.936] Build Operating System: linux Ubuntu
+[819702.937] Current Operating System: Linux OQS 5.15.0-107-generic #117~20.04.1-Ubuntu SMP Tue Apr 30 10:35:57 UTC 2024 x86_64
+[819702.937] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-107-generic root=UUID=aa495a16-8b47-44e2-afce-366188f2ddf7 ro quiet splash vt.handoff=7
+[819702.937] Build Date: 09 April 2024  01:36:10AM
+[819702.937] xorg-server 2:1.20.13-1ubuntu1~20.04.17 (For technical support please see http://www.ubuntu.com/support) 
+[819702.937] Current version of pixman: 0.38.4
+[819702.937] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[819702.937] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[819702.937] (==) Log file: "/home/oqs/.local/share/xorg/Xorg.1.log", Time: Thu Jul  4 12:31:37 2024
+[819702.937] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[819702.937] (==) No Layout section.  Using the first Screen section.
+[819702.937] (==) No screen section available. Using defaults.
+[819702.937] (**) |-->Screen "Default Screen Section" (0)
+[819702.937] (**) |   |-->Monitor "<default monitor>"
+[819702.937] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[819702.937] (==) Automatically adding devices
+[819702.937] (==) Automatically enabling devices
+[819702.937] (==) Automatically adding GPU devices
+[819702.937] (==) Automatically binding GPU devices
+[819702.937] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[819702.937] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[819702.937] 	Entry deleted from font path.
+[819702.937] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[819702.937] 	Entry deleted from font path.
+[819702.937] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[819702.937] 	Entry deleted from font path.
+[819702.937] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[819702.937] 	Entry deleted from font path.
+[819702.937] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[819702.937] 	Entry deleted from font path.
+[819702.937] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[819702.937] (==) ModulePath set to "/usr/lib/xorg/modules"
+[819702.937] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[819702.937] (II) Loader magic: 0x5624f29af020
+[819702.937] (II) Module ABI versions:
+[819702.937] 	X.Org ANSI C Emulation: 0.4
+[819702.937] 	X.Org Video Driver: 24.1
+[819702.937] 	X.Org XInput driver : 24.1
+[819702.937] 	X.Org Server Extension : 10.0
+[819702.937] (++) using VT number 2
+
+[819702.938] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_3156
+[819702.938] (II) xfree86: Adding drm device (/dev/dri/card0)
+[819702.939] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[819702.940] (--) PCI:*(0@0:1:0) 1b36:0100:1af4:1100 rev 4, Mem @ 0xf4000000/67108864, 0xf8000000/67108864, 0xfcc14000/8192, I/O @ 0x0000c040/32, BIOS @ 0x????????/131072
+[819702.940] (II) LoadModule: "glx"
+[819702.940] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[819702.941] (II) Module glx: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.13, module version = 1.0.0
+[819702.941] 	ABI class: X.Org Server Extension, version 10.0
+[819702.941] (==) Matched qxl as autoconfigured driver 0
+[819702.941] (==) Matched modesetting as autoconfigured driver 1
+[819702.941] (==) Matched fbdev as autoconfigured driver 2
+[819702.941] (==) Matched vesa as autoconfigured driver 3
+[819702.941] (==) Assigned the driver to the xf86ConfigLayout
+[819702.941] (II) LoadModule: "qxl"
+[819702.941] (II) Loading /usr/lib/xorg/modules/drivers/qxl_drv.so
+[819702.941] (II) Module qxl: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.7, module version = 0.1.5
+[819702.941] 	Module class: X.Org Video Driver
+[819702.941] 	ABI class: X.Org Video Driver, version 24.1
+[819702.941] (II) LoadModule: "modesetting"
+[819702.941] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[819702.941] (II) Module modesetting: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.13, module version = 1.20.13
+[819702.941] 	Module class: X.Org Video Driver
+[819702.941] 	ABI class: X.Org Video Driver, version 24.1
+[819702.941] (II) LoadModule: "fbdev"
+[819702.941] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[819702.941] (II) Module fbdev: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.1, module version = 0.5.0
+[819702.941] 	Module class: X.Org Video Driver
+[819702.941] 	ABI class: X.Org Video Driver, version 24.0
+[819702.941] (II) LoadModule: "vesa"
+[819702.941] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[819702.941] (II) Module vesa: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.4, module version = 2.4.0
+[819702.941] 	Module class: X.Org Video Driver
+[819702.941] 	ABI class: X.Org Video Driver, version 24.0
+[819702.941] (II) qxl: Driver for QXL virtual graphics: QXL 1
+[819702.941] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[819702.941] (II) FBDEV: driver for framebuffer: fbdev
+[819702.941] (II) VESA: driver for VESA chipsets: vesa
+[819702.941] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[819702.941] (II) [KMS] Kernel modesetting enabled.
+[819702.941] (WW) Falling back to old probe method for modesetting
+[819702.941] (WW) Falling back to old probe method for fbdev
+[819702.941] (II) Loading sub module "fbdevhw"
+[819702.941] (II) LoadModule: "fbdevhw"
+[819702.941] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[819702.941] (II) Module fbdevhw: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.13, module version = 0.0.2
+[819702.941] 	ABI class: X.Org Video Driver, version 24.1
+[819702.941] (EE) open /dev/fb0: Permission denied
+[819702.941] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[819702.941] (II) qxl(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[819702.941] (==) qxl(0): Depth 24, (--) framebuffer bpp 32
+[819702.941] (==) qxl(0): RGB weight 888
+[819702.941] (==) qxl(0): Default visual is TrueColor
+[819702.941] (==) qxl(0): Using gamma correction (1.0, 1.0, 1.0)
+[819702.941] (II) qxl(0): Deferred Frames: Disabled
+[819702.941] (II) qxl(0): Offscreen Surfaces: Enabled
+[819702.941] (II) qxl(0): Image Cache: Enabled
+[819702.941] (II) qxl(0): Fallback Cache: Enabled
+[819702.941] (==) qxl(0): DPI set to (96, 96)
+[819702.941] (II) Loading sub module "fb"
+[819702.941] (II) LoadModule: "fb"
+[819702.941] (II) Loading /usr/lib/xorg/modules/libfb.so
+[819702.941] (II) Module fb: vendor="X.Org Foundation"
+[819702.941] 	compiled for 1.20.13, module version = 1.0.0
+[819702.941] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[819702.941] (II) Loading sub module "ramdac"
+[819702.941] (II) LoadModule: "ramdac"
+[819702.941] (II) Module "ramdac" already built-in
+[819702.942] (II) qxl(0): Output Virtual-1 has no monitor section
+[819702.942] (II) qxl(0): Output Virtual-2 has no monitor section
+[819702.942] (II) qxl(0): Output Virtual-3 has no monitor section
+[819702.942] (II) qxl(0): Output Virtual-4 has no monitor section
+[819702.942] (II) qxl(0): EDID for output Virtual-1
+[819702.942] (II) qxl(0): Printing probed modes for output Virtual-1
+[819702.942] (II) qxl(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz eP)
+[819702.942] (II) qxl(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[819702.942] (II) qxl(0): Modeline "2560x1600"x60.0  268.50  2560 2608 2640 2720  1600 1603 1609 1646 +hsync -vsync (98.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[819702.942] (II) qxl(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[819702.942] (II) qxl(0): Modeline "2048x1152"x60.0  162.00  2048 2074 2154 2250  1152 1153 1156 1200 +hsync +vsync (72.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[819702.942] (II) qxl(0): Modeline "1920x1200"x60.0  154.00  1920 1968 2000 2080  1200 1203 1209 1235 +hsync -vsync (74.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 -hsync -vsync (67.5 kHz e)
+[819702.942] (II) qxl(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[819702.942] (II) qxl(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[819702.942] (II) qxl(0): Modeline "1400x1050"x59.9  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[819702.942] (II) qxl(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x854"x60.0   89.34  1280 1352 1480 1680  854 857 867 887 -hsync +vsync (53.2 kHz)
+[819702.942] (II) qxl(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1366x768"x60.0   72.00  1366 1380 1436 1500  768 769 772 800 +hsync +vsync (48.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x768"x60.0   68.25  1280 1328 1360 1440  768 771 778 790 +hsync -vsync (47.4 kHz e)
+[819702.942] (II) qxl(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "1152x768"x59.9   71.95  1152 1216 1328 1504  768 771 781 798 -hsync +vsync (47.8 kHz)
+[819702.942] (II) qxl(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[819702.942] (II) qxl(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[819702.942] (II) qxl(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[819702.942] (II) qxl(0): Modeline "720x480"x59.9   26.85  720 744 808 896  480 483 493 500 -hsync +vsync (30.0 kHz)
+[819702.942] (II) qxl(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[819702.942] (II) qxl(0): EDID for output Virtual-2
+[819702.942] (II) qxl(0): EDID for output Virtual-3
+[819702.942] (II) qxl(0): EDID for output Virtual-4
+[819702.942] (II) qxl(0): Output Virtual-1 connected
+[819702.942] (II) qxl(0): Output Virtual-2 disconnected
+[819702.942] (II) qxl(0): Output Virtual-3 disconnected
+[819702.942] (II) qxl(0): Output Virtual-4 disconnected
+[819702.942] (II) qxl(0): Using exact sizes for initial modes
+[819702.942] (II) qxl(0): Output Virtual-1 using initial mode 1024x768 +0+0
+[819702.942] (II) qxl(0): PreInit complete
+[819702.942] (II) UnloadModule: "modesetting"
+[819702.942] (II) Unloading modesetting
+[819702.942] (II) UnloadModule: "fbdev"
+[819702.942] (II) Unloading fbdev
+[819702.942] (II) UnloadSubModule: "fbdevhw"
+[819702.942] (II) Unloading fbdevhw
+[819702.942] (II) UnloadModule: "vesa"
+[819702.942] (II) Unloading vesa
+[819702.942] (II) UXA(0): Driver registered support for the following operations:
+[819702.942] (II)         solid
+[819702.942] (II)         copy
+[819702.942] (II)         composite (RENDER acceleration)
+[819702.942] (II)         put_image
+[819702.942] resizing primary to 1024x768
+[819702.942] primary is 0x5624f474f9a0
+[819702.943] (II) Initializing extension Generic Event Extension
+[819702.945] (II) Initializing extension SHAPE
+[819702.945] (II) Initializing extension MIT-SHM
+[819702.945] (II) Initializing extension XInputExtension
+[819702.945] (II) Initializing extension XTEST
+[819702.945] (II) Initializing extension BIG-REQUESTS
+[819702.945] (II) Initializing extension SYNC
+[819702.945] (II) Initializing extension XKEYBOARD
+[819702.945] (II) Initializing extension XC-MISC
+[819702.945] (II) Initializing extension SECURITY
+[819702.945] (II) Initializing extension XFIXES
+[819702.945] (II) Initializing extension RENDER
+[819702.945] (II) Initializing extension RANDR
+[819702.945] (II) Initializing extension COMPOSITE
+[819702.945] (II) Initializing extension DAMAGE
+[819702.945] (II) Initializing extension MIT-SCREEN-SAVER
+[819702.945] (II) Initializing extension DOUBLE-BUFFER
+[819702.945] (II) Initializing extension RECORD
+[819702.945] (II) Initializing extension DPMS
+[819702.945] (II) Initializing extension Present
+[819702.945] (II) Initializing extension DRI3
+[819702.945] (II) Initializing extension X-Resource
+[819702.945] (II) Initializing extension XVideo
+[819702.946] (II) Initializing extension XVideo-MotionCompensation
+[819702.946] (II) Initializing extension SELinux
+[819702.946] (II) SELinux: Disabled on system
+[819702.946] (II) Initializing extension GLX
+[819702.946] (II) AIGLX: Screen 0 is not DRI2 capable
+[819702.958] (II) IGLX: Loaded and initialized swrast
+[819702.958] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[819702.958] (II) Initializing extension XFree86-VidModeExtension
+[819702.958] (II) Initializing extension XFree86-DGA
+[819702.958] (II) Initializing extension XFree86-DRI
+[819702.958] (II) Initializing extension DRI2
+[819702.958] (II) qxl(0): Setting screen physical size to 270 x 203
+[819702.974] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[819702.974] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[819702.974] (II) LoadModule: "libinput"
+[819702.974] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[819702.974] (II) Module libinput: vendor="X.Org Foundation"
+[819702.974] 	compiled for 1.20.4, module version = 0.29.0
+[819702.974] 	Module class: X.Org XInput Driver
+[819702.974] 	ABI class: X.Org XInput driver, version 24.1
+[819702.974] (II) Using input driver 'libinput' for 'Power Button'
+[819702.975] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 21 paused 0
+[819702.975] (**) Power Button: always reports core events
+[819702.975] (**) Option "Device" "/dev/input/event0"
+[819702.975] (**) Option "_source" "server/udev"
+[819702.976] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[819702.976] (II) event0  - Power Button: device is a keyboard
+[819702.976] (II) event0  - Power Button: device removed
+[819702.976] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[819702.976] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[819702.976] (**) Option "xkb_model" "pc105"
+[819702.976] (**) Option "xkb_layout" "us"
+[819702.976] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[819702.976] (II) event0  - Power Button: device is a keyboard
+[819702.977] (II) config/udev: Adding input device QEMU QEMU USB Tablet (/dev/input/event2)
+[819702.977] (**) QEMU QEMU USB Tablet: Applying InputClass "libinput pointer catchall"
+[819702.977] (II) Using input driver 'libinput' for 'QEMU QEMU USB Tablet'
+[819702.977] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 24 paused 0
+[819702.977] (**) QEMU QEMU USB Tablet: always reports core events
+[819702.977] (**) Option "Device" "/dev/input/event2"
+[819702.977] (**) Option "_source" "server/udev"
+[819702.978] (II) event2  - QEMU QEMU USB Tablet: is tagged by udev as: Mouse
+[819702.978] (II) event2  - QEMU QEMU USB Tablet: device is a pointer
+[819702.978] (II) event2  - QEMU QEMU USB Tablet: device removed
+[819702.978] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.7/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input4/event2"
+[819702.978] (II) XINPUT: Adding extended input device "QEMU QEMU USB Tablet" (type: MOUSE, id 7)
+[819702.978] (**) Option "AccelerationScheme" "none"
+[819702.978] (**) QEMU QEMU USB Tablet: (accel) selected scheme none/0
+[819702.978] (**) QEMU QEMU USB Tablet: (accel) acceleration factor: 2.000
+[819702.978] (**) QEMU QEMU USB Tablet: (accel) acceleration threshold: 4
+[819702.978] (II) event2  - QEMU QEMU USB Tablet: is tagged by udev as: Mouse
+[819702.979] (II) event2  - QEMU QEMU USB Tablet: device is a pointer
+[819702.980] (II) config/udev: Adding input device QEMU QEMU USB Tablet (/dev/input/mouse0)
+[819702.980] (II) No input driver specified, ignoring this device.
+[819702.980] (II) This device may have been added with another device file.
+[819702.981] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+[819702.981] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[819702.981] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[819702.981] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 25 paused 0
+[819702.981] (**) AT Translated Set 2 keyboard: always reports core events
+[819702.981] (**) Option "Device" "/dev/input/event1"
+[819702.981] (**) Option "_source" "server/udev"
+[819702.982] (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[819702.982] (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+[819702.982] (II) event1  - AT Translated Set 2 keyboard: device removed
+[819702.982] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+[819702.982] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+[819702.982] (**) Option "xkb_model" "pc105"
+[819702.982] (**) Option "xkb_layout" "us"
+[819702.982] (II) event1  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[819702.982] (II) event1  - AT Translated Set 2 keyboard: device is a keyboard
+[819702.983] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[819702.983] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[819702.983] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[819702.983] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 26 paused 0
+[819702.983] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[819702.983] (**) Option "Device" "/dev/input/event3"
+[819702.983] (**) Option "_source" "server/udev"
+[819702.984] (II) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[819702.984] (II) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[819702.984] (II) event3  - ImExPS/2 Generic Explorer Mouse: device removed
+[819702.984] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+[819702.984] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 9)
+[819702.984] (**) Option "AccelerationScheme" "none"
+[819702.984] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[819702.984] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[819702.984] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[819702.984] (II) event3  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[819702.984] (II) event3  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[819702.984] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse1)
+[819702.984] (II) No input driver specified, ignoring this device.
+[819702.984] (II) This device may have been added with another device file.
+[819704.147] (II) config/udev: Adding input device spice vdagent tablet (/dev/input/mouse2)
+[819704.147] (II) No input driver specified, ignoring this device.
+[819704.147] (II) This device may have been added with another device file.
+[819704.147] (II) config/udev: Adding input device spice vdagent tablet (/dev/input/js0)
+[819704.147] (II) No input driver specified, ignoring this device.
+[819704.147] (II) This device may have been added with another device file.
+[819704.181] (II) config/udev: Adding input device spice vdagent tablet (/dev/input/event4)
+[819704.181] (**) spice vdagent tablet: Applying InputClass "libinput pointer catchall"
+[819704.181] (II) Using input driver 'libinput' for 'spice vdagent tablet'
+[819704.185] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 39 paused 0
+[819704.185] (**) spice vdagent tablet: always reports core events
+[819704.185] (**) Option "Device" "/dev/input/event4"
+[819704.185] (**) Option "_source" "server/udev"
+[819704.185] (II) event4  - spice vdagent tablet: is tagged by udev as: Mouse
+[819704.185] (II) event4  - spice vdagent tablet: device is a pointer
+[819704.185] (II) event4  - spice vdagent tablet: device removed
+[819704.185] (**) Option "config_info" "udev:/sys/devices/virtual/input/input8/event4"
+[819704.185] (II) XINPUT: Adding extended input device "spice vdagent tablet" (type: MOUSE, id 10)
+[819704.185] (**) Option "AccelerationScheme" "none"
+[819704.185] (**) spice vdagent tablet: (accel) selected scheme none/0
+[819704.185] (**) spice vdagent tablet: (accel) acceleration factor: 2.000
+[819704.185] (**) spice vdagent tablet: (accel) acceleration threshold: 4
+[819704.185] (II) event4  - spice vdagent tablet: is tagged by udev as: Mouse
+[819704.185] (II) event4  - spice vdagent tablet: device is a pointer
+[1003587.249] (EE) 
+Fatal server error:
+[1003587.249] (EE) systemd-logind disappeared (stopped/restarted?)
+[1003587.249] (EE) 
+[1003587.249] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[1003587.249] (EE) Please also check the log file at "/home/oqs/.local/share/xorg/Xorg.1.log" for additional information.
+[1003587.249] (EE) 
+[1003587.345] (EE) Server terminated with error (1). Closing log file.
