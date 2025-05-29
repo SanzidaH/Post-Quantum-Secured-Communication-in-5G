@@ -14,7 +14,7 @@ sudo ./server2.sh 4433 falcon512 hqc128
 ```bash
 sudo ./client2.sh 10.45.0.12 4433 hqc128 falcon512 512 10 50
 ```
-### Fetch Collected Data during Transmission from the Host Machine (Windows)
+### 🧾Fetch Collected Data during Transmission from the Host Machine (Windows)
 ```bash
 fetch_logs.bat kem_hqc128_sig_falcon512
 ```
